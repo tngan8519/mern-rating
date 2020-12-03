@@ -68,8 +68,7 @@ export const signOut = () => async (dispatch) => {
     type: USER_SIGNOUT,
   });
   localStorage.removeItem("userInfo");
-  localStorage.removeItem("cartItems");
-  localStorage.removeItem("shippingAddress");
+  
 };
 
 export const clear = () => async (dispatch) => {
